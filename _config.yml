@@ -28,6 +28,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 
 # Outputting
+url: http://eliabesilva.com.br
 permalink: /:categories/:title/
 paginate: 3 # amount of posts to show
 paginate_path: /page:title/
