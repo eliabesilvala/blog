@@ -15,20 +15,22 @@
 # in the templates via {{ site.myvariable }}.
 repository: eliabesilvala/blog
 locale: "pt-BR"
+logo: "/assets/images/88x88.png"
 title: Eliabe Silva
 email: eliabe.silva.la@gmail.com
-description: Notícias, pensamentos, tutoriais e muito mais!
+description: Notícias, meliponicultura, pensamentos, tutoriais e muito mais!
 twitter_username: eliabesilvala
 github_username: eliabesilvala
 minimal_mistakes_skin: dark
 search: true
+title_separator: "|"
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 
 # Outputting
-url: http://eliabesilva.com.br
+url: https://eliabesilva.com.br
 permalink: /:categories/:title/
 paginate: 3 # amount of posts to show
 paginate_path: /page:title/
@@ -60,13 +62,13 @@ plugins:
   
 
 author:
-  name   : "Eliabe Silva"
+  name   : "Eliabe da Silva"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Notícias, pensamentos, tutoriais e muito mais!"
+  bio    : "Notícias, meliponicultura, pensamentos, tutoriais e muito mais!"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://eliabesilva.com.br"
+      url: "https://eliabesilva.com.br"    
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/eliabesilvala"

@@ -16,3 +16,9 @@ group :jekyll_plugins do
   gem "jekyll-algolia"
   gem "jekyll-data"
 end
+
+gem "webrick", "~> 1.7"
+
+gem "jekyll-admin", "~> 0.11.1"
+
+gem "minimal-mistakes-jekyll"
