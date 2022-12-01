@@ -13,6 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+#Configurações para o servidor local
+livereload: true
+open_url: true
+verbose: true
+incremental: true
+
 repository: eliabesilvala/blog
 locale: "pt-BR"
 logo: "/assets/images/88x88.png"
@@ -24,6 +31,7 @@ github_username: eliabesilvala
 minimal_mistakes_skin: dark
 search: true
 title_separator: "|"
+google_analytics: 
 
 # Build settings
 markdown: kramdown
@@ -59,12 +67,15 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-admin
+  - minimal-mistakes-jekyll
+  - webrick
   
 
 author:
   name   : "Eliabe da Silva"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Notícias, meliponicultura, pensamentos, tutoriais e muito mais!"
+  bio    : "Notícias, meliponicultura, pensamentos, tutoriais, tecnologia e muito mais!"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

@@ -61,6 +61,7 @@ Esse processo poderar ser feito em macos, windows ou distribuições linux.
 
 4. Coloque o pendrive e ligue o computador, configure sua bios para inicializar pelo pendrive (pesquise sobre "Boot usb + o modelo da sua placa mãe ou notebook" para saber como), salvar e sair, o computador deverá reiniciar e carregar o boot loader pelo pendrive
 
-5. Na tela do boot loader verifique se está selecionado Install macOS Ventura
+5. Na tela do boot loader verifique se está selecionado Install macOS Ventura.
+![Imagem da tela do Boot loader](/assets/images/bootLoader.jpg){: .align-center}<br>
 
-Continua...
+6. Em breve...

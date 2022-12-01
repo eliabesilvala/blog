@@ -15,10 +15,7 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
   gem "jekyll-data"
+  gem "minimal-mistakes-jekyll"
+  gem "webrick"
+  gem "jekyll-admin"
 end
-
-gem "webrick", "~> 1.7"
-
-gem "jekyll-admin", "~> 0.11.1"
-
-gem "minimal-mistakes-jekyll"
