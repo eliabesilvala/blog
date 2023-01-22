@@ -1,4 +1,6 @@
 main:
+  - title: "Início"
+    url: /index/
   - title: "Artigos"
     url: /posts/
   - title: "Categorias"

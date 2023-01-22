@@ -1,37 +1,15 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-#Configurações para o servidor local
-livereload: true
-open_url: true
-verbose: true
-incremental: true
-
 repository: eliabesilvala/blog
 locale: "pt-BR"
 logo: "/assets/images/88x88.png"
 title: Eliabe Silva
 email: eliabe.silva.la@gmail.com
-description: Notícias, meliponicultura, pensamentos, tutoriais e muito mais!
+description: Notícias, meliponicultura, tecnologia, tutoriais e muito mais!
 twitter_username: eliabesilvala
 github_username: eliabesilvala
 minimal_mistakes_skin: dark
 search: true
 title_separator: "|"
-google_analytics: 
+google_analytics: G-H6YBMH7RT3
 
 # Build settings
 markdown: kramdown
@@ -46,6 +24,7 @@ timezone: America/Recife # https://en.wikipedia.org/wiki/List_of_tz_database_tim
 
 include:
   - _pages
+  - _includes
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -70,16 +49,14 @@ plugins:
   - jekyll-admin
   - minimal-mistakes-jekyll
   - webrick
+  - jekyll-admin
   
 
 author:
   name   : "Eliabe da Silva"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Notícias, meliponicultura, pensamentos, tutoriais, tecnologia e muito mais!"
+  bio    : "Notícias, meliponicultura, tecnologia, tutoriais e muito mais!"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://eliabesilva.com.br"    
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/eliabesilvala"
