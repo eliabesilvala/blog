@@ -78,6 +78,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/eliabesilvala"
+    - label: "Filie-se ao PSOL"
+      icon: "fab fa-fw fa-sun"
+      url: "https://forms.gle/ABtW7a31keEaP6A4A"  
 
 defaults:
   # _posts
