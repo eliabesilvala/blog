@@ -1,6 +1,6 @@
 main:
   - title: "Início"
-    url: /index/
+    url: /
   - title: "Artigos"
     url: /posts/
   - title: "Categorias"
@@ -9,3 +9,5 @@ main:
     url: /tags/
   - title: "Sobre"
     url: /about/
+  - title: "FILIE-SE AO PSOL"
+    url: https://forms.gle/ABtW7a31keEaP6A4A
