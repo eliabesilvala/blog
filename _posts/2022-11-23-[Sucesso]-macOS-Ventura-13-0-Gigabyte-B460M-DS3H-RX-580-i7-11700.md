@@ -64,4 +64,4 @@ Esse processo poderar ser feito em macos, windows ou distribuições linux.
 5. Na tela do boot loader verifique se está selecionado Install macOS Ventura.
 ![Imagem da tela do Boot loader](/assets/images/bootLoader.jpg){: .align-center}<br>
 
-6. Em breve...
+6. Por fim, basta seguir os passos da instalação.
